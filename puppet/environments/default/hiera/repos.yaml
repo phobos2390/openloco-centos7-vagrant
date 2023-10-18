@@ -1,0 +1,7 @@
+repo-defaults:
+  ensure: present
+  revision: master
+  provider: git
+repos:
+  /home/vagrant/openloco/openloco:
+    source: "https://github.com/openloco/openloco.git"
